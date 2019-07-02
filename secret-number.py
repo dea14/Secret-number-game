@@ -23,5 +23,7 @@ def date_fashion(you, date):
     elif you <= 2 and you < 8 and date <= 2 and date < 8:
         return 0
     else:
-        return 1 
+        return 1
+
+print(date_fashion(3,7))
 
