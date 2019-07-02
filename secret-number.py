@@ -7,18 +7,8 @@
     return False
 print((cigar_party(20, True)))'''
 
-def squirrel_play(temp, is_summer):
-  if is_summer == False:
-    if temp >= 60 and temp<= 90:
-      return True
-    else:
-      return False
-  else:
-      upper = 90
-      if is_summer:
-          upper = 100
-      return (temp >= 60 and temp <= upper)
-'''
+
+
 def date_fashion(you, date):
     if you >= 8:
         if date > 2:
@@ -35,4 +25,3 @@ def date_fashion(you, date):
     else:
         return 1 
 
-''''''
