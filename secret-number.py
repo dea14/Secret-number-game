@@ -20,7 +20,7 @@ def date_fashion(you, date):
             return 2
         else:
             return 0
-    elif you <= 2 and you < 8 and date <= 2 and date < 8:
+    elif you <= 2 and you < 8 and date <= 2 and date < 0:
         return 0
     else:
         return 1
