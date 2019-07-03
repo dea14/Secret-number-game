@@ -1,11 +1,11 @@
-'''def cigar_party(cigars, is_weekend):
+def cigar_party(cigars, is_weekend):
   if cigars >= 40 and cigars <= 60 or is_weekend == True:
     return True 
   elif cigars >= 40 or is_weekend == True:
     return True
   else:
     return False
-print((cigar_party(20, True)))'''
+print((cigar_party(20, True)))
 
 
 
