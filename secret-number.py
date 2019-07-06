@@ -1,4 +1,4 @@
-def make_bricks(small, big, goal):
+'''def make_bricks(small, big, goal):
     if 5 * big == goal:
         return True
     elif 1 * small == goal:
@@ -10,5 +10,16 @@ def make_bricks(small, big, goal):
         return True
 
 
-print(make_bricks(3,1,9))
+print(make_bricks(3,1,9))'''
+
+
+def lone_sum(a, b, c):
+    if a != b and a != c and b != c:
+        return a + b + c
+    elif a != b and a=c:
+        return b
+    elif b != a and b=c:
+        return a
+
+
 
