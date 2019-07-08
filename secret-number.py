@@ -11,7 +11,7 @@ def make_bricks(small, big, goal):
         return False
 
 
-print(make_bricks(3,1,9))
+print(make_bricks(4,1,9))
 
 
 
